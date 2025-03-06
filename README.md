@@ -1,6 +1,12 @@
 # WEEK 1: 
 # 🔗Link: [Week 1_folder]()
-### - 
+### - Data Validation
+### - Create Drop-down Lists
+### - Using Formulas in Data Validation
+### - Working w Data Validation
+### - Advanced Conditional Formatting
+
+
   
 💥 **- Week 1_Practice Challenge:** [challenge]()
 
@@ -12,6 +18,11 @@
 
 # WEEK 2
 # 🔗Link: [Week 2_folder]()
+### - Logical Functions I: IF
+### - Logical Functions II: AND, OR
+### - Combining Logical Functions I: IF, AND, OR
+### - Combining Logical Functions II: Nested IFs
+### - Handling Errors: IFERROR, IFNA
 ### - 
   
 
