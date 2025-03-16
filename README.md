@@ -1,6 +1,11 @@
 # WEEK 1: 
 # 🔗Link: [Week 1_folder]()
 ### - Data Validation
+- ```Data``` tab--> Data Validation (Settings/Input Message/ Error Alert)
+   - *Settings*: define the validation criteria. The default allows any value, meaning no validation is taking place. Drop-down shows: Any value, Whole number, Decimal, List, Date, Time, ...
+   - 
+
+  
 ### - Create Drop-down Lists
 ### - Using Formulas in Data Validation
 ### - Working w Data Validation
