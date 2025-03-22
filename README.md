@@ -28,7 +28,7 @@
 
 ### - Advanced Conditional Formatting
 - ```Conditional Formatting``` --> New Rule...--> "Use a formula to determine which cells to format" --> **Format values where this formula is true:** = H4 < J4 (w/o $ signs) --> Preview: Format (Font:Bold, Fill:Color)
-- ```Conditional Formatting``` --> New Rule...--> "Use a formula to determine which cells to format" --> **Format values where this formula is true:** = $E4 = $O$4 (⚠️ Row to go Relative while Column remain Abs) --> Preview: Format (Fill:Color)
+- ```Conditional Formatting``` --> New Rule...--> "Use a formula to determine which cells to format" --> **Format values where this formula is true:** = **$E4** = $O$4 **(⚠️ Row to go Relative while Column remain Abs)** --> Preview: Format (Fill:Color)
   
 💥 **- Week 1_Practice Challenge:** [challenge]()
 
