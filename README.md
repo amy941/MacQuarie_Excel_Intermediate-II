@@ -89,7 +89,7 @@
 
 💥 **- Week 2_Practice Challenge:** [challenge]()
 
-💥💥 **- Week 2_Assessment:** [assessment_Week 2]()
+💥💥 **- Week 2_Assessment:** [assessment_Week 2]() 
 
 ---
 
