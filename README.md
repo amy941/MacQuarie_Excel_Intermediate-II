@@ -46,7 +46,7 @@
   
 - Second argument in brackets is the **"value_if_true"**, could be a value we just type into the cell /or a calculated value.
   * if the logical test equates to True, then whatever we've got between two commas will occur.
-  * if the logical test equates to False, then it's going to do the third and last argument **"value_if_false**
+  * if the logical test equates to False, then it's going to do the third and last argument **"value_if_false"**
 
 - If working w text, put double quotes **" "** /or quotation marks **' '** /or **""** (leave Blank) 
 - When comparing text, the equals is **not case sensitive**
