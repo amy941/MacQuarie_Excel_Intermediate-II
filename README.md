@@ -37,7 +37,7 @@
 ---
 
 # WEEK 2
-# 🔗Link: [Week 2_folder]()
+# 🔗Link: [Week 2_folder](https://github.com/amy941/MacQuarie_Excel_Intermediate-II/tree/main/Week%202)
 ### - Logical Functions I: IF
 
 **=IF(logical test, [value_if_true], [value_if_false])**
@@ -87,9 +87,9 @@
 - =IFERROR(AVERAGE('Invoice Data'!$O$4:$O$654),"")
 - =IFNA(VLOOKUP('Invoice Data'!$A4,BPay!$B$4:$D$10,3,0),0)
 
-💥 **- Week 2_Practice Challenge:** [challenge]()
+💥 **- Week 2_Practice Challenge:** [challenge](https://github.com/amy941/MacQuarie_Excel_Intermediate-II/blob/main/Week%202/C3-W2-Practice-Challenge.xlsx)
 
-💥💥 **- Week 2_Assessment:** [assessment_Week 2]() 
+💥💥 **- Week 2_Assessment:** [assessment_Week 2](https://github.com/amy941/MacQuarie_Excel_Intermediate-II/blob/main/Week%202/C3-W2-Final-Assessment.xlsx) 
 
 ---
 
