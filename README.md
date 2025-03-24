@@ -79,12 +79,14 @@
 
 
 ### - Combining Logical Functions II: Nested IFs
-- 
+![nested IFs](https://github.com/user-attachments/assets/80651868-47ff-4e95-83cb-385a064d9bbb)
+
+**=IF(Balance= 0, "A", IF(Balance > 0, "B", "C"))**
 
 ### - Handling Errors: IFERROR, IFNA
+- =IFERROR(AVERAGE('Invoice Data'!$O$4:$O$654),"")
+- =IFNA(VLOOKUP('Invoice Data'!$A4,BPay!$B$4:$D$10,3,0),0)
 
-
-  
 💥 **- Week 2_Practice Challenge:** [challenge]()
 
 💥💥 **- Week 2_Assessment:** [assessment_Week 2]()
