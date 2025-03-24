@@ -39,22 +39,47 @@
 # WEEK 2
 # 🔗Link: [Week 2_folder]()
 ### - Logical Functions I: IF
+
 **=IF(logical test, [value_if_true], [value_if_false])**
 - First argument is **a logical test**, compares 2 values using a **logical operator**
-- 
+  ![logical operator](https://github.com/user-attachments/assets/4e3ef65a-d3e2-4e5f-abfe-975a3472416a)
+  
+- Second argument in brackets is the **"value_if_true"**, could be a value we just type into the cell /or a calculated value.
+  * if the logical test equates to True, then whatever we've got between two commas will occur.
+  * if the logical test equates to False, then it's going to do the third and last argument **"value_if_false**
 
+- If working w text, put double quotes **" "** /or quotation marks **' '** /or **""** (leave Blank) 
+- When comparing text, the equals is **not case sensitive**
+- =IF(F4="Y",D4*5%,0)
 
 ### - Logical Functions II: AND, OR
 
+**=AND(logical1, [logical2], ...)
+  =OR(logical1, [logical2], ...)
+  Up to 255 logical tests❗
+  Only returns TRUE/FALSE**
 
+- **=AND(logical1, [logical2], ...)**
+  * =AND(B4>0,C4<>"Y")
+  * evaluate multiple logical tests
+  * If x & y & z & ... are **ALL** True, then it returns True
+
+- **=OR(logical1, [logical2], ...)**
+  * =OR(I4>=16, J4)
+  * If **any** of these are True: x,y,z,..., then returns True
 
 
 ### - Combining Logical Functions I: IF, AND, OR
 
+**=IF(AND(logical1, logical2, ...), [value_if_true], [value_if_false])
+  =IF(OR(logical1, logical2, ...), [value_if_true], [value_if_false])**
+
+- =IF(AND(B4>0,C4<>"Y"),B4*10%,0)
+- =IF(OR(I4>=16,J4),250,0)
 
 
 ### - Combining Logical Functions II: Nested IFs
-
+- 
 
 ### - Handling Errors: IFERROR, IFNA
 
