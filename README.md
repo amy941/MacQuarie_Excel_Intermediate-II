@@ -39,9 +39,23 @@
 # WEEK 2
 # 🔗Link: [Week 2_folder]()
 ### - Logical Functions I: IF
+**=IF(logical test, [value_if_true], [value_if_false])**
+- First argument is **a logical test**, compares 2 values using a **logical operator**
+- 
+
+
 ### - Logical Functions II: AND, OR
+
+
+
+
 ### - Combining Logical Functions I: IF, AND, OR
+
+
+
 ### - Combining Logical Functions II: Nested IFs
+
+
 ### - Handling Errors: IFERROR, IFNA
 
 
