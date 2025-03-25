@@ -96,10 +96,33 @@
 # WEEK 3
 # 🔗Link: [Week 3_folder]()
 ### - Introduction to lookups: CHOOSE
+
+
+
+
 ### - Approximate Matches: Range VLOOKUP
+
+
+
+
+
 ### - Exact Matches: Exact Match VLOOKUP
+
+
+
+
 ### - Finding a Position: MATCH
+
+
+
+
+
 ### - Dynamic Lookups: INDEX, MATCH
+
+
+
+
+
   
 💥 **- Week 3_Practice Challenge:** 
 
