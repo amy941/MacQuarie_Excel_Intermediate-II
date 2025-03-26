@@ -206,10 +206,19 @@
 ### - Tracing Precedents & Dependents
 - **Trace Precedents** is a cell that is referred to in a formula.
   
+![trace_precedent](https://github.com/user-attachments/assets/b306bb52-abaa-4a91-b2ea-d5adc342c933)
+  
 - **Trace Dependents** is a formula that refers to your cell.
+  
+![trace_dependent1](https://github.com/user-attachments/assets/63458feb-ae7d-492c-905c-ba19d300f5ae)
 
+⬇️ Click twice
 
+![trace_dependent2](https://github.com/user-attachments/assets/8d0dc03c-3b01-4aee-bb26-b53ee4692578)
 
+- **dash black arrow**: indicates we are referring to a value in a different worksheet.
+  
+![dash_black_arrow](https://github.com/user-attachments/assets/7283eaea-f903-4b7c-8436-e93f52cd41c7)
 
 
 ### - Evaluate Formula, Watch Window
