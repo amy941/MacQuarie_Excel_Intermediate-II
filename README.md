@@ -171,9 +171,44 @@
 # WEEK 4
 # 🔗Link: [Week 4_folder]()
 ### - Error Checking
+- Error: **#N/A**, **#REF**, **#VALUE!**, **#DIV/0!**, **#NAME?**
+  * Errors occur when typing mistakes, incorrect syntax, or invalid arguments.
+  * To locate errors: Click ```Home``` tab --> ```Find & Select``` --> Go to Special... --> Formulas (✅ Errors) --> highlight errors
+    
+- ```Formulas``` tab --> Error Checking --> Show Calculation Steps... || Edit in Formular bar || Next    
+  * 🛑 **VALUE!** occurs when you make a **typo** /or one of the **inputs is invalid.**
+  * 🛑 **#N/A** means Excel tried to do a lookup but it **hasn't found the look up value.**, typed the lookup value incorrect /or haven't provided it at all.
+  * 🛑 **#REF** occurs either when you **copy paste** relative references to cells where they cannot refer to the correct values, /or they happen quite often with lookup errors **when you refer to a range that doesn't actually exist.**
+  * **Potential errors**: Excel has flagged as looking like it might be problematic, eventhough it hasn't yet produced an error message.
+
+- ```Formulas``` tab --> Show Formulas (shows all formulas in the Workbook)
+   * 🛑 **#DIV/0!** happens when one of the **input cells is Blank** /or **contains a zero.**
+   * 🛑 **#NAME?** occurs either **typed the function name in wrong** /or **forgotten double quotes** when working with text.
+
+- **Trace errors**: ```Formulas``` tab --> Error Checking (click drop-down) --> Trace Error 
+
+
 ### - Formula Calc Options
+
+
+
+
+
 ### - Tracing Precedents & Dependents
+
+
+
+
+
+
+
 ### - Evaluate Formula, Watch Window
+
+
+
+
+
+
 ### - Protecting Workbooks & Worksheets
 
 
