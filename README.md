@@ -56,7 +56,7 @@
 
 **=AND(logical1, [logical2], ...)
   =OR(logical1, [logical2], ...)
-  Up to 255 logical tests❗
+  Up to 255 logical tests❗,
   Only returns TRUE/FALSE**
 
 - **=AND(logical1, [logical2], ...)**
@@ -177,7 +177,7 @@
     
 - ```Formulas``` tab --> Error Checking --> Show Calculation Steps... || Edit in Formular bar || Next    
   * 🛑 **VALUE!** occurs when you make a **typo** /or one of the **inputs is invalid.**
-  * 🛑 **#N/A** means Excel tried to do a lookup but it **hasn't found the look up value.**, typed the lookup value incorrect /or haven't provided it at all.
+  * 🛑 **#N/A** means Excel tried to do a lookup but it **hasn't found the look up value.**
   * 🛑 **#REF** occurs either when you **copy paste** relative references to cells where they cannot refer to the correct values, /or they happen quite often with lookup errors **when you refer to a range that doesn't actually exist.**
   * **Potential errors**: Excel has flagged as looking like it might be problematic, eventhough it hasn't yet produced an error message.
 
@@ -187,16 +187,26 @@
 
 - **Trace errors**: ```Formulas``` tab --> Error Checking (click drop-down) --> Trace Error 
 
+![trace_error](https://github.com/user-attachments/assets/fe18c8a6-a4ad-4910-91a2-86aa376e53ee)
 
 ### - Formula Calc Options
+- 🔁 **Circular references**: is when the calc. cell includes itself as part of that calc., and as a result, gets into an **infinite loop.**
+  * They can also occur when a cell **indirectly references itself**, so it refers to another cell which refers to it.
+  * ```Formulas``` tab --> Error Checking (drop-down) --> Circular References 🔁
+    
+- 🟢 **Green flag** error: not necessarily an error, but might be incorrect in some way. The most common reason is **an inconsistent formula.** -- the one that looks a bit different than the rest.
+  * Fix **Inconsistent Formula**: ⚠️ Warning sign --> drop-down --> Copy Formula from Above
 
-
-
-
+- Change **Error checking options**: Workbook Calculation --> Automatic / Manual
+  * **Automatic**: everytime you make a change in your workbook, all the calc. will re-calculate.
+  * **Manual**: works better when you want to make a small change and don't want to wait for long for Excel the re-calculate the whole Workbook.
+    * set to **Manual** --> ```Formulas``` tab --> Calculate Now (force Excel to immediately recalculate all the values in Workbook)
+    * set back to **Automatic** --> ```Formulas``` tab --> Calculation Options --> Automatic
 
 ### - Tracing Precedents & Dependents
-
-
+- **Trace Precedents** is a cell that is referred to in a formula.
+  
+- **Trace Dependents** is a formula that refers to your cell.
 
 
 
