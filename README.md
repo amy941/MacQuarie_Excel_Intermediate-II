@@ -285,12 +285,37 @@
 # WEEK 5
 # 🔗Link: [Week 5_folder]()
 ### - Modelling Functions: SUMPRODUCT
-
-
+- **SUMPRODUCT()** finds the product of multiple arrays and then sums up the products.
+  * **=SUMPRODUCT(**array1**, [array2], [array3], ...)**
+      =SUMPRODUCT(B6:D6,$B$4:$D$4)/SUM($B$4:$D$4)
+    
+  * All the arrays must have the same number of rows & columns.❗❗❗
+  * No need for a particular order ❗❗❗
+    
+- Narrow down data & add it up where a certain criterion is met
+  * =SUMPRODUCT(1*(E6:E11>=100)) --> each result is going to return a True or False 
+    
 
 ### - Data Tables
+- **Data Tables** see a range of different outcomes using different inputs using just one formula
+- ```Data``` tab --> What-if Analysis (drop-down) --> Data Table
+  * a single variable
+  * a dual variable
 
+- **One-input Data Tables** (a single variable)
 
+  ![single_variable](https://github.com/user-attachments/assets/145ec8c2-6f9a-4c9f-a8eb-715f462ddbfa) 
+
+  * { =TABLE(,E17) } --> means we're dealing with a data table
+  * ❗Cannot delete a single cell. If want to delete, have to select all of those results.
+
+- **Two-input Data Tables** (a dual variable)
+
+  ![dual_variable](https://github.com/user-attachments/assets/61f0f4d4-8a6f-4311-997b-e8944a1cf410)
+
+  * { =TABLE(E21,E23) }
+
+  
 
 ### - Goal Seek
 
