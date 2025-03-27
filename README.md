@@ -222,14 +222,58 @@
 
 
 ### - Evaluate Formula, Watch Window
+- ```Formulas``` tab --> Evaluate Formula
+  * Evaluate: work through formula step-by-step
+  * Step In: displays a formula that is referred to in your active formula in a separate box.
+
+![evaluate_formula](https://github.com/user-attachments/assets/52924892-46ab-4e74-9fb2-b638dedf7fa0)
 
 
+- ```Formulas``` tab --> Watch Window (watch the cells even when we are not on the same worksheet)
 
-
+![watch_window](https://github.com/user-attachments/assets/64bc44c9-cb0d-48e7-b2e2-2699baf0c130)
 
 
 ### - Protecting Workbooks & Worksheets
+- to prevent unauthorized access or accidental damage
+- Protection can be added at 3 different levels
+  * **at Workbook** itself.
+  * **at the structural level**, so you can prevent people from adding, moving, or unhiding worksheets.
+  * **at worksheet level** itself, where you can lock all the cells or just selected cells.
+    
+- **Method 1:** ```File``` tab --> Info --> 🔏 Protect Workbook --> Encrypt with Password (only allow 1 level of access)
+  
+- **Method 2:** ```File``` tab --> Save as --> Browse --> Next to **Save** button, press **Tools** --> General Options (allows to add two levels of password protection)
+  * Password to open: add a password w/o which the user will not be able to open the workbook at all.
+  * Password to modify: users can open the workbook, but only to view the contents.
+  * users cannot be able to change the contents, meaning the file is **open read-only**
+    
+- **Method 3**: ```Review``` tab --> Protect Sheet || Protect Workbook
+  * **Protect Workbook: protect the structure of the workbook**
 
+    ![protect_workbook](https://github.com/user-attachments/assets/a8983c12-e874-4c71-a0a7-cd6c9d644369)
+
+    * Impact: Structure of workbook is locked, means: cannot add New sheet ➕, cannot move the Sheet, right-click on any of the tabs nearly all the options have been grayed out.
+    * Benefits: great for 3D cell references as we don't want the sheets to move around too much /or want sheets to remain hidden.
+      
+  * **Protect Sheet: lock down the contents of the sheet**
+    
+    ![protect_sheet](https://github.com/user-attachments/assets/2e3db63f-bab2-469d-8f2e-6ecd578535a3)
+    
+    * Impact: locked the sheet but still can click & view the content of the cells.
+
+   * **Protect Sheet** (unlock certain cells)
+
+     ![protect_sheet_certain_cell](https://github.com/user-attachments/assets/84f39c3f-c281-48d2-9b56-901c070fcef4)
+ 
+     ⬇️
+ 
+     ![protect_sheet_certain_cell1](https://github.com/user-attachments/assets/e6bd7cda-90a8-402a-bc08-bd5caf9c4aee)
+
+     * Impact: users cannot view the content/formulas behind the cells, cannot even click on them. 
+     * Benefits: allow the users to change certain cells but locked down the ones that contain the formulas so those remain protected.
+    
+   * **Protect Sheet**: ```Review``` tab --> Allow Users to Edit Ranges (can specify certain ranges to have their own password) --> New
 
   
 💥 **- Week 4_Practice Challenge:** [challenge]()
