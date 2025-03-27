@@ -285,10 +285,26 @@
 # WEEK 5
 # 🔗Link: [Week 5_folder]()
 ### - Modelling Functions: SUMPRODUCT
+
+
+
 ### - Data Tables
+
+
+
 ### - Goal Seek
+
+
+
 ### - Scenario Manager
+
+
+
+
 ### - Solver
+
+
+
 
 💥 **- Week 5_Practice Challenge:** [challenge]()
 
@@ -299,10 +315,26 @@
 # WEEK 6
 # 🔗Link: [Week 6_folder]()
 ### - Record a Macro
+
+
+
 ### - Run a Macro
+
+
+
 ### - Edit a Marco
+
+
+
 ### - Work w Marcos
+
+
+
+
 ### - Relative Reference Macros
+
+
+
   
 💥 **- Week 6_Practice Challenge:** [challenge]()
 
