@@ -138,7 +138,7 @@
  - =MATCH(**lookup_value**, lookup_array, [match_type])
    =MATCH(**Table2[[#Headers]**,[Short Description]],parts[#Headers],0)
    
-   ⬇️
+   ⬇️ ⬇️ ⬇️
    
    =VLOOKUP([@Item],parts,**E$4**,FALSE) -- **E$4** is a **mixed reference**
    
@@ -154,7 +154,7 @@
  
 - =INDEX(Discounts,**MATCH(C11,Discount_Categories,0)**, **MATCH(D11,Customer_Categories,0)**)
 
-  ⬇️
+  ⬇️ ⬇️ ⬇️
   
 - =INDEX(Discounts,MATCH([@Category],Discount_Categories,0), $I$4)
 
@@ -212,7 +212,7 @@
   
 ![trace_dependent1](https://github.com/user-attachments/assets/63458feb-ae7d-492c-905c-ba19d300f5ae)
 
-⬇️ Click twice
+⬇️ ⬇️ ⬇️ CLICK TWICE
 
 ![trace_dependent2](https://github.com/user-attachments/assets/8d0dc03c-3b01-4aee-bb26-b53ee4692578)
 
@@ -266,7 +266,7 @@
 
      ![protect_sheet_certain_cell](https://github.com/user-attachments/assets/84f39c3f-c281-48d2-9b56-901c070fcef4)
  
-     ⬇️
+     ⬇️ ⬇️ ⬇️
  
      ![protect_sheet_certain_cell1](https://github.com/user-attachments/assets/e6bd7cda-90a8-402a-bc08-bd5caf9c4aee)
 
@@ -315,14 +315,25 @@
 
   * { =TABLE(E21,E23) }
 
-  
 
 ### - Goal Seek
+- **Goal Seek**: given a cell that has a calculation in it, it will adjust that cell to a specified value by changing one of the inputs that you provide.
+  
+- ```Data``` tab --> What-if Analysis --> Goal Seek
+  * **Set cell**: is the cell that contains your calculation that you want to change the value it's returning.
+  * **To value**: want this to equal to ...
+  * **By changing cell**: which input we want to change to get to that result. Must be in a typed-in value rather than a formula ❗
 
+![goal_seek_2](https://github.com/user-attachments/assets/04b50567-4f81-4aa8-b2ca-88ac930f1bdf)
 
+⬇️ ⬇️ ⬇️
+
+![goal_seek_2_result](https://github.com/user-attachments/assets/40bab345-b155-4343-ba6a-83b2630eeeec)
+  
 
 ### - Scenario Manager
-
+- **Scenario Manager**: allows you to keep different data inputs in a single worksheet.
+- 
 
 
 
