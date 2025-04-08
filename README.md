@@ -94,7 +94,7 @@
 ---
 
 # WEEK 3
-# 🔗Link: [Week 3_folder]()
+# 🔗Link: [Week 3_folder](https://github.com/amy941/MacQuarie_Excel_Intermediate-II/tree/main/Week%203)
 ### - Introduction to lookups: CHOOSE
 - **CHOOSE**: retrieving a value from a list based on a given numeric value.
   
@@ -162,9 +162,9 @@
 
   The **INDEX MATCH** has no such restriction --> more versatile. It also has the advantage that you can split out the lookup from the return while VLOOKUP cannot.
  
-💥 **- Week 3_Practice Challenge:** [challenge]()
+💥 **- Week 3_Practice Challenge:** [challenge](https://github.com/amy941/MacQuarie_Excel_Intermediate-II/blob/main/Week%203/C3-W3-Practice-Challenge.xlsx)
 
-💥💥 **- Week 3_Assessment:** [assessment_Week 3]()
+💥💥 **- Week 3_Assessment:** [assessment_Week 3](https://github.com/amy941/MacQuarie_Excel_Intermediate-II/blob/main/Week%203/C3-W3-Final-Assessment.xlsx)
 
 ---
 
