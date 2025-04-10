@@ -169,7 +169,7 @@
 ---
 
 # WEEK 4
-# 🔗Link: [Week 4_folder]()
+# 🔗Link: [Week 4_folder](https://github.com/amy941/MacQuarie_Excel_Intermediate-II/tree/main/Week%204)
 ### - Error Checking
 - Error: **#N/A**, **#REF**, **#VALUE!**, **#DIV/0!**, **#NAME?**
   * Errors occur when typing mistakes, incorrect syntax, or invalid arguments.
@@ -276,9 +276,9 @@
    * **Protect Sheet**: ```Review``` tab --> Allow Users to Edit Ranges (can specify certain ranges to have their own password) --> New
 
   
-💥 **- Week 4_Practice Challenge:** [challenge]()
+💥 **- Week 4_Practice Challenge:** [challenge](https://github.com/amy941/MacQuarie_Excel_Intermediate-II/blob/main/Week%204/C3-W4-Practice-Challenge.xlsx)
 
-💥💥 **- Week 4_Assessment:** [assessment_Week 4]()
+💥💥 **- Week 4_Assessment:** [assessment_Week 4](https://github.com/amy941/MacQuarie_Excel_Intermediate-II/blob/main/Week%204/C3-W4-Final-Assessment.xlsx)
 
 ---
 
