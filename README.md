@@ -283,7 +283,7 @@
 ---
 
 # WEEK 5
-# 🔗Link: [Week 5_folder]()
+# 🔗Link: [Week 5_folder](https://github.com/amy941/MacQuarie_Excel_Intermediate-II/tree/main/Week%205)
 ### - Modelling Functions: SUMPRODUCT
 - **SUMPRODUCT()** finds the product of multiple arrays and then sums up the products.
   * **=SUMPRODUCT(**array1**, [array2], [array3], ...)**
@@ -346,9 +346,9 @@
 
 
 
-💥 **- Week 5_Practice Challenge:** [challenge]()
+💥 **- Week 5_Practice Challenge:** [challenge](https://github.com/amy941/MacQuarie_Excel_Intermediate-II/blob/main/Week%205/C3-W5-Practice-Challenge.xlsx)
 
-💥💥 **- Week 5_Assessment:** [assessment_Week 5]()
+💥💥 **- Week 5_Assessment:** [assessment_Week 5](https://github.com/amy941/MacQuarie_Excel_Intermediate-II/blob/main/Week%205/C3-W5-Final-Assessment.xlsx)
 
 ---
 
