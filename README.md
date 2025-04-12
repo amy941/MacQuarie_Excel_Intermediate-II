@@ -333,7 +333,7 @@
 
 ### - Scenario Manager
 - **Scenario Manager**: allows you to keep different data inputs in a single worksheet.
-- ⚠️ Better to name your ranges prior to producing scenarios.
+- ‼️ Better to name your ranges prior to producing scenarios.
 - ```Data``` tab--> What-If Analysis --> Scenario Manager
 
 
@@ -355,15 +355,29 @@
 # WEEK 6
 # 🔗Link: [Week 6_folder]()
 ### - Record a Macro
-
+- ➕ **Add macro:** ```File```--> Options--> Customize Ribbon--> Developer. You should now see the **Developer tab on the Ribbon**
+- 📽️ **Record macro:** hit a Record button, give a name, specify where to store it, go thro all the steps we want Excel to remember us doing, then press **Stop.** ‼️
+- Language: Visual Basic for Applications (VBA)
+- 💾 **Save macro**: Save as... **Excel Macro-Enabled Workbook (.xlsm)**
 
 
 ### - Run a Macro
-
+- 🏃🏻 **Run macro: **```Developer```--> Macros--> Run
+- 🔘 **Create a Button to run macro:** ```Insert```--> Shape--> Right-click--> Assign Macro
 
 
 ### - Edit a Marco
+- 🛠️ **Edit macro:** ```Developer```--> Macro--> Edit--> open up VBA Editor
+  * Left-hand side: a Project Explorer - allows you to look at different macros in different open workbooks
+  * Right-hand side: a code window
+    
+- All recorded macro **begins with a Sub** (subroutine), and **ends with an End Sub**
+  * **All of your code sits between the Sub and the End Sub**
+  * **Each line of code represents one instruction or one step that you performed**
+  * some of the codes are GREEN and prefixed with an apostrophe are called **comments**, totally ignored by the compiler
 
+- **Add new lines to VBA Editor:**
+  * Range("B2").Value = inputbox("Please enter week commencing date", "New Timesheet Date") --> Save 💾
 
 
 ### - Work w Marcos
