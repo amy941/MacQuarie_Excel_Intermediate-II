@@ -320,9 +320,9 @@
 - **Goal Seek**: given a cell that has a calculation in it, it will adjust that cell to a specified value by changing one of the inputs that you provide.
   
 - ```Data``` tab --> What-if Analysis --> Goal Seek
-  * **Set cell**: is the cell that contains your calculation that you want to change the value it's returning.
+  * **Set cell**: is the cell that **contains your calculation** that you want to change the value it's returning.
   * **To value**: want this to equal to ...
-  * **By changing cell**: which input we want to change to get to that result. Must be in a typed-in value rather than a formula ❗
+  * **By changing cell**: which input we want to change to get to that result. Must be in a **typed-in value** rather than a formula ❗
 
 ![goal_seek_2](https://github.com/user-attachments/assets/04b50567-4f81-4aa8-b2ca-88ac930f1bdf)
 
@@ -333,12 +333,16 @@
 
 ### - Scenario Manager
 - **Scenario Manager**: allows you to keep different data inputs in a single worksheet.
-- 
-
+- ⚠️ Better to name your ranges prior to producing scenarios.
+- ```Data``` tab--> What-If Analysis --> Scenario Manager
 
 
 ### - Solver
-
+- **Solver:** allows you to model different situations with a variety of inputs and constraints and even integrate that with Scenario Manager so you can store different solutions.
+- **Add Solver:** ```File``` tab--> Option--> Add-ins--> at the bottom: Manage: Excel Add-ins , Go--> Solver Add-ins--> OK
+  * **Set Objective:** cell contains **formula** that you want to return a different result.
+  * **To:** ✅Max , ✅Min , ✅Value Of: ....
+  * **By Changing Variable Cells:** which our inputs can change
 
 
 
