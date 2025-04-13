@@ -375,18 +375,20 @@
   * **All of your code sits between the Sub and the End Sub**
   * **Each line of code represents one instruction or one step that you performed**
   * some of the codes are GREEN and prefixed with an apostrophe are called **comments**, totally ignored by the compiler
+    
+![VBA editor](https://github.com/user-attachments/assets/0417f9ca-577c-4d28-83c7-b82bba9dd51c)
 
 - **Add new lines to VBA Editor:**
   * Range("B2").Value = inputbox("Please enter week commencing date", "New Timesheet Date") --> Save 💾
 
 
 ### - Work w Marcos
-
-
-
+- VBA code to widen the column: record yourself widening the column, then copy and paste that code into the original macro.
 
 ### - Relative Reference Macros
-
+- ```Developer```--> Use Relative References--> Record Macro
+- Ctrl + Home, Ctrl + down arrow, and down arrow
+- ```Data```--> Get Data--> Legacy Wizards--> From Text
 
 
   
