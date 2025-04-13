@@ -353,7 +353,7 @@
 ---
 
 # WEEK 6
-# 🔗Link: [Week 6_folder]()
+# 🔗Link: [Week 6_folder](https://github.com/amy941/MacQuarie_Excel_Intermediate-II/tree/main/Week%206)
 ### - Record a Macro
 - ➕ **Add macro:** ```File```--> Options--> Customize Ribbon--> Developer. You should now see the **Developer tab on the Ribbon**
 - 📽️ **Record macro:** hit a Record button, give a name, specify where to store it, go thro all the steps we want Excel to remember us doing, then press **Stop.** ‼️
