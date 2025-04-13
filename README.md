@@ -358,8 +358,7 @@
 - ➕ **Add macro:** ```File```--> Options--> Customize Ribbon--> Developer. You should now see the **Developer tab on the Ribbon**
 - 📽️ **Record macro:** hit a Record button, give a name, specify where to store it, go thro all the steps we want Excel to remember us doing, then press **Stop.** ‼️
 - Language: Visual Basic for Applications (VBA)
-- 💾 **Save macro**: Save as... **Excel Macro-Enabled Workbook (.xlsm)**
-
+- 💾 **Save macro**: Save as... Excel Macro-Enabled Workbook **(.xlsm)**, Excel Binary Workbook (**.xlsb)**, Excel Macro-Enabled Template **(.xltm)**
 
 ### - Run a Macro
 - 🏃🏻 **Run macro: **```Developer```--> Macros--> Run
