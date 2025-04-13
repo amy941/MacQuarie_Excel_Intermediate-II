@@ -392,7 +392,8 @@
 
 ---
 
-**FINAL COURSE ASSESSMENT:** [Final Course Assessment]()
+# **FINAL COURSE ASSESSMENT:** [Final Course Assessment]()
+
 ---
 
 # CERTIFICATE
