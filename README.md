@@ -388,7 +388,7 @@
 ### - Relative Reference Macros
 - ```Developer```--> Use Relative References--> Record Macro
 - Ctrl + Home, Ctrl + down arrow, and down arrow
-- ```Data```--> Get Data--> Legacy Wizards--> From Text
+- ```Data```--> Get Data--> From File--> From Text
 
 
   
