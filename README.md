@@ -390,7 +390,9 @@
 - Ctrl + Home, Ctrl + down arrow, and down arrow
 - ```Data```--> Get Data--> From File--> From Text
 
-💥💥💥**Final Course Assessment:** [Final Course Assessment]()
+---
+
+**FINAL COURSE ASSESSMENT:** [Final Course Assessment]()
 ---
 
 # CERTIFICATE
