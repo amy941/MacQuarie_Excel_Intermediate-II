@@ -391,9 +391,7 @@
 - ```Data```--> Get Data--> From File--> From Text
 
 ---
-
 # **FINAL COURSE ASSESSMENT:** [Final Course Assessment]()
-
 ---
 
 # CERTIFICATE
