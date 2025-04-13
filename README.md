@@ -390,7 +390,9 @@
 - Ctrl + Home, Ctrl + down arrow, and down arrow
 - ```Data```--> Get Data--> From File--> From Text
 
-
+💥💥💥**Final Course Assessment:** [Final Course Assessment]()
 ---
 
 # CERTIFICATE
+
+[certificate.pdf](https://github.com/user-attachments/files/19722577/certificate.pdf)
