@@ -391,11 +391,6 @@
 - ```Data```--> Get Data--> From File--> From Text
 
 
-  
-💥 **- Week 6_Practice Challenge:** [challenge]()
-
-💥💥 **- Week 6_Assessment:** [assessment_Week 6]()
-
 ---
 
 # CERTIFICATE
